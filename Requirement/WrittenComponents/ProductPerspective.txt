@@ -51,4 +51,38 @@ Memory Constraints
 Since we are using an AI we might have some memory constraints?
 could just mention the memory we tested on and the maximum memory that the program used
 
+ -----------------------------------------------------------------------------
+Will's thoughts:
+	Terminal based (without GUI). When user run the the program:
+		python3 runner.py*
+	A web brower will pop up and open WEB Sudoku page, then:
+		crawl(selenium) -> solve(AI) -> modified javascript(selenium) 
+	Detalied:
+		1. Crawl the web page get the Sudoku puzzle.
+		2. Put the data into a format that can recognized by the
+		solver. Like 2D numpy or lists of list. 
+		3. AI solve processing. 
+			3.1 AI + modified javascript:
+				While AI is solving, we can show the processing
+				it is doing (looks cool), like this:
+				https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#/media/File:Sudoku_solved_by_bactracking.gif
 
+	The program will keep checking if there exist a new puzzle. There are 
+	sounds problems with this approach. Like what if the user want to quit
+	the software? Just Ctrl-C in the terminal? Moreover, while the programing is
+	keeping running, probably going to consume memory while running time
+	increasing. And also there are different game mode. Harder mode may
+	also consumes more memory. 
+
+	NOTE:
+		* The command can pass command arguments(CA), since WEB Sudoku can
+		  select a game number. If no CA, start to solve the one
+		  whatever the one opened. 
+		
+	Browser:
+		Use whatever browers have on the user's PC. This will cause a
+		bug if there are no browers on user's PC (for some Linux user). 
+	
+	Platform: 
+		Probably Unix only? Really not sure about Windows. 
+	
