@@ -1,0 +1,54 @@
+This system will be a de novo construction of a sudoku solver. Several components that will each do
+a specific task will be integrated to create a complete sudoku solver. 
+
+System interfaces:
+The components within the system are as follows:
+1. Web-scraper that will retreive the 9x9 sudoku grid from a website. 
+2. Sudoku solver.
+3. Feed of the actions being taken by the sudoku solver.
+(any more?? are we gonna make #3???)
+
+There will be two main interfaces regarding the afformentioned components: the interface between
+the Web-scraper and the Solver and the interface between the Solver and the Live-feed.
+For the first interface,The sudoku grid must be retreived from the web and piped to the sudoku solv
+er as a 9x9 table.
+(comma seperated or something else??? should have specific format for the output of the webscraper).
+For the second interface, after every action, the name of that action and the resultant change will
+be specified to the live-feed. This will allow the feed to be updated after every action.
+
+How will user interact with the interfaces? 
+
+What will be supplied as input for the system? 
+
+User Interfaces:
+For this part we may have to decide a layout of how the game will look. Mostly have to give
+indication about what we will give the player in terms of the screen and what they can view.
+
+The feed will be comprised of a 9x9 sudoku board and indications of changes within the board. There
+will be possible value numbers given in each square within the board. The numbers will be arranged
+from the top left of each square from 1-9 clockwise as follows: (should provide an image of the
+square) The new actions will be color coded????(maybe). Each actino will have a corresponding
+display indicating the squares involved and the logic used(maybe). 
+
+
+Hardware Interfaces:
+
+Are we going to make this as a web application? or no
+
+
+Software Interfaces:
+
+Selenium
+Python3
+
+that's it??
+
+some web browser?? do we have to specify the web browser it works with??
+This software is designed to work with the following web browser(s)
+
+Memory Constraints
+
+Since we are using an AI we might have some memory constraints?
+could just mention the memory we tested on and the maximum memory that the program used
+
+
