@@ -85,4 +85,25 @@ Will's thoughts:
 	
 	Platform: 
 		Probably Unix only? Really not sure about Windows. 
-	
+
+------------------------------------------------------------------------------
+
+Umar thoughts:
+
+terminal based application confirmed.
+
+will require internet access to retrieve the sudoku puzzles
+
+Architecture consideration:
+  pipes and filters
+The web scraper will be one module within our program that should be able to 
+function by itself. Then must implement adapter between the web scraper layer
+and the actual logical layer. the logical layer must function independent of the
+web scraper layer. Adapters will be created such that a consistent data structure
+will passed between the layers for communication. 
+
+I don't know how we are going to be able to make it so that it shows the steps.
+We will have to make it so that the GUI implementation is completely seperate from
+the AI layer. We will want to use an interface of some sort to make sure that a 
+
+certain behaviour is maintained within the code.
