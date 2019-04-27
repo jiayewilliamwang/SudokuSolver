@@ -1,0 +1,18 @@
+Web crawling side: 
+1. The WEB Sudok web page is not working in the way as expected.  For instance:
+	- When a user input something in any slots, the webpage is NOT changing
+	  anything. UNLESS the user press then ENTER. Hence the ENTER is
+	  actually a hot-key for "How am I doing?" button. 
+	- The puzzle is just a 9 x 9 <tbody>. However, for each <tr> tags,
+	  there is no such field to represent the value. Therefore, the
+	  approach is either: press ENTER every time when the board is updated,
+	  or only press ENTER once when there is no empty slot. 
+
+More importantly for a cheat. Yes, we are literally making a cheat... This
+principle is developmented by me. It's that be a pathetic hider. You can't let
+other people or the softeware developer  know you are cheating, hence, the
+cheat should perform more like a human. An example is I add mistakes for my
+AutoType. So for this one: Just solve it and change the entire board probably
+not a good idea, rather show the progress of each number we filled in. 
+
+Discuss with me if you have any thought about it. 
