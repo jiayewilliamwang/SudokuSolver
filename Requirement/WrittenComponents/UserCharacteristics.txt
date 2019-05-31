@@ -1,0 +1,18 @@
+User characteristics:
+
+Actors: 
+
+Users-> an individual who will be using the software and wanting to see the 
+steps needed to be taken to solve a specific sudoku problem. 
+Responsibilities of this individual include: finding a valid sudoku
+puzzle online from a specific website,
+
+Product Functions:
+
+the Sudoku Solver will, given the website where the sudoku puzzle is found, 
+solve the sudoku problem and display it in (some output way). The main
+components of the software will be the web crawling componenet, the AI 
+and the UI. 
+(must create flow diagrams with description).
+
+
