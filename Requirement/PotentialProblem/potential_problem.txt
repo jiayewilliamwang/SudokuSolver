@@ -15,4 +15,12 @@ cheat should perform more like a human. An example is I add mistakes for my
 AutoType. So for this one: Just solve it and change the entire board probably
 not a good idea, rather show the progress of each number we filled in. 
 
-Discuss with me if you have any thought about it. 
+Discuss with me if you have any thought about it.
+
+Umar thoughts:
+
+I don't understand the tbody problem you are having with selenium. How are the
+values stored within the the specific feild? 
+
+should we have some sort of ENTER key functionality. My understanding was that
+the sudoku problem solver will just solve the puzzle and that's it.
