@@ -3,8 +3,8 @@ from selenium import webdriver
 
 class Crawler:
 
-    def __init__(self):
-        self.url = 'http://view.websudoku.com/?level=4'
+    def __init__(self, level=1):
+        self.url = f'http://view.websudoku.com/?level={level}'
         self.driver = webdriver.Chrome("C:\\Users\\Will\\Downloads\\chromedriver_win32\\chromedriver.exe")
         self.driver.get(self.url)
 
