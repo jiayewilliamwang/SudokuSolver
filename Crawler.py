@@ -17,7 +17,7 @@ class Crawler:
             html_board.append(rows.find_elements_by_xpath("td/input"))
         return html_board
 
-    def parse_html_boar(self):
+    def get_readable_board(self):
         readable_board = []
         for row in self.html_board:
             cur_row = []
