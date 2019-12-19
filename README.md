@@ -2,8 +2,8 @@
 
 This program will auto-solve a Sudoku puzzle from [WEB SUDOKU](https://www.websudoku.com/).  
 
-2019 Summer Project. I am the only developer. This project will be 
-following the software development process that I learned from my 
-"Intermedia to Software Engineer" class which I took in the winter. 
-Briefly speaking: write requirement doc., design doc., and coding and 
-testing. 
+Suppose be a summer project, but with advance procrastination, this project finally
+have some approaches after half year. 
+
+TODO:
+   - Very slow on higher level puzzles, can be fixed with optimization.  
